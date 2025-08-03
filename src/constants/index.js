@@ -1,0 +1,329 @@
+import {
+  benefitIcon1,
+  benefitIcon2,
+  benefitIcon3,
+  benefitIcon4,
+  benefitImage2,
+  chromecast,
+  disc02,
+  discord,
+  discordBlack,
+  facebook,
+  figma,
+  file02,
+  framer,
+  homeSmile,
+  instagram,
+  notification2,
+  notification3,
+  notification4,
+  notion,
+  photoshop,
+  plusSquare,
+  protopie,
+  raindrop,
+  recording01,
+  recording03,
+  roadmap1,
+  roadmap2,
+  roadmap3,
+  roadmap4,
+  searchMd,
+  slack,
+  sliders04,
+  telegram,
+  twitter,
+  yourlogo,
+} from "../assets";
+
+export const navigation = [
+  {
+    id: "0",
+    title: "Features",
+    url: "#features",
+  },
+  {
+    id: "1",
+    title: "Pricing",
+    url: "#pricing",
+  },
+  {
+    id: "2",
+    title: "How to use",
+    url: "#how-to-use",
+  },
+  {
+    id: "3",
+    title: "Roadmap",
+    url: "#roadmap",
+  },
+  {
+    id: "4",
+    title: "Telegram",
+    url: " https://t.me/Gamesellin",
+    onlyMobile: true,
+  },
+  {
+    id: "5",
+    title: "Discord",
+    url: "https://discord.gg/reZHsP6h",
+    onlyMobile: true,
+  },
+];
+
+export const heroIcons = [discord, photoshop, raindrop, telegram];
+
+export const notificationImages = [notification4, notification3, notification2];
+
+export const companyLogos = [yourlogo];
+
+export const brainwaveServices = [
+  "Live Streaming Excellence",
+  "Seamless Community Integration",
+  "Exclusive Game Deals",
+];
+
+export const brainwaveServicesIcons = [
+  photoshop,
+  recording01,
+  discord,
+  chromecast,
+  raindrop,
+];
+
+export const roadmap = [
+  {
+    id: "0",
+    title: "Create game comunity",
+    text: "Build a strong community of gamers, streamers, and developers who share a passion for gaming.",
+    date: "Feb 2023",
+    status: "done",
+    imageUrl: roadmap1,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "Web Development Team",
+    text: "Design and maintain the official Game Blaze website, improving user experience, community engagement, and online services.",
+    date: "March 2024",
+    status: "progress",
+    imageUrl: roadmap2,
+  },
+  {
+    id: "2",
+    title: "Community Expansion",
+    text: "Expand the Game Blaze community to include more gamers, streamers, and developers from around the country.",
+    date: "Dese 2023",
+    status: "done",
+    imageUrl: roadmap3,
+  },
+  {
+    id: "3",
+    title: " Game Development Team",
+    text: "Develop and release new games, focusing on quality, innovation, and community feedback.",
+    date: "May 2024",
+    status: "Not started",
+    imageUrl: roadmap4,
+  },
+];
+
+export const collabText =
+  "With smart automation and top-notch security, Game Blaze is the perfect platform for gamers.";
+
+export const collabContent = [
+  {
+    id: "0",
+    title: "Seamless Integration",
+    text: collabText,
+  },
+  {
+    id: "1",
+    title: "Smart Automation",
+  },
+  {
+    id: "2",
+    title: "Top-notch Security",
+  },
+];
+
+export const collabApps = [
+  {
+    id: "0",
+    title: "Figma",
+    icon: figma,
+    width: 26,
+    height: 36,
+  },
+  {
+    id: "1",
+    title: "Notion",
+    icon: notion,
+    width: 34,
+    height: 36,
+  },
+  {
+    id: "2",
+    title: "Discord",
+    icon: discord,
+    width: 36,
+    height: 28,
+  },
+  {
+    id: "3",
+    title: "Slack",
+    icon: slack,
+    width: 34,
+    height: 35,
+  },
+  {
+    id: "4",
+    title: "Photoshop",
+    icon: photoshop,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "5",
+    title: "Protopie",
+    icon: protopie,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "6",
+    title: "Framer",
+    icon: framer,
+    width: 26,
+    height: 34,
+  },
+  {
+    id: "7",
+    title: "Raindrop",
+    icon: raindrop,
+    width: 38,
+    height: 32,
+  },
+];
+
+export const pricing = [
+  {
+    id: "0",
+    title: "Basic",
+    description: "Community access, live streams, event participation",
+    price: null,
+    features: [
+      "Join our Telegram & Discord gaming community",
+      "Participate in community discussions and events",
+      "Watch Game Blaze live streams on YouTube",
+    ],
+  },
+  {
+    id: "1",
+    title: "Premium",
+    description: "Everything in Basic Bundled with exclusive discounts and early access",
+    price:  null,
+    features: [
+      "1 to 3 games for lifetime",
+      "Exclusive discounts on premium game titles",
+      "Early access to selected game releases",
+    ],
+  },
+  {
+    id: "2",
+    title: "Enterprise",
+    description: "The ultimate gaming experience with personalized recommendations",
+    price: null,
+    features: [
+      "3 to 10 games for lifetime",
+      "Access to VIP game sales & limited edition content",
+      "ersonalized game recommendations from our experts",
+    ],
+  },
+];
+
+export const benefits = [
+  {
+    id: "0",
+    title: "Exclusive Game Deals",
+    text: "Access special discounts and offers on top-rated games, available only through Game Blaze.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "1",
+    title: "One-Stop Gaming Hub",
+    text: "Everything you need in one place—news, reviews, streams, game sales, and a thriving community!.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "2",
+    title: "Seamless Streaming Experience",
+    text: "Watch high-quality game streams with zero interruptions on our YouTube channel.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: benefitIcon3,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "3",
+    title: "One-Stop Gaming Hub",
+    text: "Everything you need in one place—news, reviews, streams, game sales, and a thriving community!",
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    iconUrl: benefitIcon4,
+    imageUrl: benefitImage2,
+    light: true,
+  },
+  {
+    id: "4",
+    title: "Ask anything",
+    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    iconUrl: benefitIcon1,
+    imageUrl: benefitImage2,
+  },
+  {
+    id: "5",
+    title: " Instant Game Support",
+    text: "Get real-time help from experts and fellow gamers on our Telegram group & Discord server.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: benefitIcon2,
+    imageUrl: benefitImage2,
+  },
+];
+
+export const socials = [
+  {
+    id: "0",
+    title: "Discord",
+    iconUrl: discordBlack,
+    url: "https://discord.gg/reZHsP6h",
+  },
+  {
+    id: "2",
+    title: "Instagram",
+    iconUrl: photoshop,
+    url: "http://www.youtube.com/@haydra-streaming",
+  },
+  {
+    id: "3",
+    title: "Telegram",
+    iconUrl: telegram,
+    url: "https://t.me/Gamesellin",
+  },
+  {
+    id: "4",
+    title: "Facebook",
+    iconUrl: facebook,
+    url: "https://www.facebook.com/share/1A3iikjgXj/?mibextid=wwXIfr ",
+  },
+
+  {
+    id: "5",
+    title: "YouTube",
+    iconUrl: photoshop,
+    url: "http://www.youtube.com/@ALFAStreaming",
+  },
+];
