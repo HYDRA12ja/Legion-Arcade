@@ -101,11 +101,11 @@ export const brainwaveServices = [
 ];
 
 export const brainwaveServicesIcons = [
-  photoshop,
-  recording01,
-  discord,
-  chromecast,
-  raindrop,
+  code,
+  python,
+  js,
+  tool,
+  c,
 ];
 
 export const roadmap = [

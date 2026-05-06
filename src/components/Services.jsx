@@ -1,12 +1,11 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check, webvideo } from "../assets";
+import { service1, service2, service3, check, webvideo, webvideo3, webvideo2 } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
-  VideoBar,
-  VideoChatMessage,
+  
 } from "./design/Services";
 
 
@@ -25,7 +24,7 @@ const Services = () => {
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto flex items-center justify-center">
               <video
                 className="w-full h-full object-cover md:object-right rounded-3xl"
-                width="930"
+                width="8030"
                 height="750"
                 autoPlay
                 loop
@@ -65,13 +64,20 @@ const Services = () => {
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
-                <img
-                  src={service2}
+                <video
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
-                  alt="robot"
-                />
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  controls={true}
+                  poster=""
+                >
+                  <source src={webvideo3} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
@@ -116,16 +122,22 @@ const Services = () => {
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img
-                  src={service3}
-                  className="w-full h-full object-cover"
-                  width={520}
+                <video
+                  className="h-full w-full object-cover"
+                  width={500}
                   height={400}
-                  alt="Scary robot"
-                />
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  controls={false}
+                  poster=""
+                >
+                  <source src={webvideo2} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
 
-                <VideoChatMessage />
-                <VideoBar />
+               
               </div>
             </div>
           </div>
