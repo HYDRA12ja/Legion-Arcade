@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Game Blaze create for Gamers."
-          text="Game Blaze unlocks the potential of Games with exclusive content and experiences."
+          title="NobleX Digital – Software & Web Solutions Hub."
+          text="NobleX Digital unlocks the potential of businesses with exclusive software and web solutions."
         />
 
         <div className="relative">
@@ -33,9 +33,11 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h3 mb-4 text-white">Game Blaze – The Ultimate Gaming Hub</h4>
+              <h4 className="h3 mb-4 text-white">NobleX Digital</h4>
               <p className="body-2 mb-[6rem]  text-white">
-              Unlocks the potential of a dynamic gaming community with exclusive content and experiences.
+              We provide complete digital solutions including website 
+              development, software systems, and business automation 
+              tools to help organizations grow and succeed.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -66,9 +68,9 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Seamless Community Integration</h4>
+                <h4 className="h4 mb-4">AI Marketing Excellence</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                   Connect effortlessly through our Telegram group, Discord server, and YouTube channel.Let me know if you’d like any tweaks!
+                   Run high-converting ad campaigns with AI-powered tools designed to attract customers and increase sales.
                 </p>
               </div>
 
@@ -77,9 +79,9 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Live Streaming Excellence </h4>
+                <h4 className="h4 mb-4">Advanced web and Software Solutions </h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                Bringing high-quality, &apos;interactive game streams that keep you engaged and entertained.
+                Build powerful custom websites and software applications designed to solve real business problems and improve performance.
                 </p>
 
                 <ul className="flex items-center justify-between">

@@ -34,6 +34,9 @@ import {
   telegram,
   twitter,
   yourlogo,
+  facebook2,
+  instagram2,
+
 } from "../assets";
 
 export const navigation = [
@@ -71,7 +74,12 @@ export const navigation = [
   },
 ];
 
-export const heroIcons = [discord, photoshop, raindrop, telegram];
+export const heroIcons = [
+  { icon: facebook, url: "https://discord.gg/reZHsP6h" },
+  { icon: discordBlack, url: "https://discord.gg/reZHsP6h" },
+  { icon: instagram, url: "https://discord.gg/reZHsP6h" },
+  { icon: twitter, url: "https://discord.gg/reZHsP6h" }
+];
 
 export const notificationImages = [notification4, notification3, notification2];
 
@@ -128,7 +136,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, Game Blaze is the perfect platform for gamers.";
+  "With smart automation and advanced technology, NobleX Digital delivers powerful websites, software, and AI marketing solutions for modern businesses.";
 
 export const collabContent = [
   {
@@ -164,7 +172,7 @@ export const collabApps = [
   {
     id: "2",
     title: "Discord",
-    icon: discord,
+    icon: facebook2,
     width: 36,
     height: 28,
   },
@@ -244,16 +252,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Exclusive Game Deals",
-    text: "Access special discounts and offers on top-rated games, available only through Game Blaze.",
+    title: "Professional Website Development",
+    text: "We build fast, modern, and responsive websites designed to attract customers and deliver real business results.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "One-Stop Gaming Hub",
-    text: "Everything you need in one place—news, reviews, streams, game sales, and a thriving community!.",
+    title: "Custom Software Solutions",
+    text: "Powerful software systems tailored to your business needs to improve efficiency and automate processes.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +269,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Seamless Streaming Experience",
-    text: "Watch high-quality game streams with zero interruptions on our YouTube channel.",
+    title: "AI Marketing Solutions",
+    text: "High-converting ads and content powered by AI to boost visibility, engagement, and sales.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "One-Stop Gaming Hub",
-    text: "Everything you need in one place—news, reviews, streams, game sales, and a thriving community!",
+    title: "Business Automation Systems",
+    text: "Streamline your operations with smart automation tools that save time and increase productivity.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +286,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Creative Branding & Design",
+    text: "Professional posters, ads, and digital content that make your brand stand out.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: " Instant Game Support",
-    text: "Get real-time help from experts and fellow gamers on our Telegram group & Discord server.",
+    title: " Reliable Support & Growth",
+    text: "Get ongoing support and strategies to continuously improve and scale your business.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

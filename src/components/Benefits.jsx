@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Join the community and enjoy the benefits"
+          title="Grow Your Business with Smart Digital Solutions"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -34,7 +34,7 @@ const Benefits = () => {
                     alt={item.title}
                   />
                   
-                    <a className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider" href="https://discord.gg/reZHsP6h">Contact US</a>
+                    <a className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider" href="">Contact US</a>
                 
                   <Arrow />
                 </div>

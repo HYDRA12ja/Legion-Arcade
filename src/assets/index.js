@@ -1,6 +1,6 @@
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.jpg";
+import brainwaveSymbol from "./brainwave-symbol.png";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -28,13 +28,26 @@ import heroBackground from "./hero/hero-background.jpg";
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
-import figma from "./collaboration/facebook.png";
+import figma from "./collaboration/facebook.svg";
 import framer from "./collaboration/telegram.png";
 import notion from "./collaboration/steam.png";
 import photoshop from "./collaboration/youtube.png";
 import protopie from "./collaboration/epicgames.png";
 import raindrop from "./collaboration/twitch.png";
 import slack from "./collaboration/xbox.png";
+import js from "./collaboration/js.png";
+import mobile from "./collaboration/mobile.png";
+import web from "./collaboration/web.png";
+import code from "./collaboration/code.png";
+import c from "./collaboration/c++.png";
+import python from "./collaboration/python.png";
+import tool from "./collaboration/tool.png";
+import video from "./collaboration/video.png";
+import facebook2 from "./collaboration/facebook.svg";
+import instagram2 from "./collaboration/instagram.png";
+import twitter2 from "./collaboration/x.png";
+
+
 
 import service1 from "./services/service-1.jpg";
 import service2 from "./services/service-3.jpg";
@@ -144,4 +157,15 @@ export {
   instagram,
   telegram,
   twitter,
+  js,
+  mobile,
+  web,
+  code,
+  c,
+  python,
+  tool,
+  video,
+  facebook2,
+  instagram2,
+  twitter2
 };
