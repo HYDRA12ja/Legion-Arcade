@@ -6,6 +6,9 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import OurTeam from "./components/ourteam";
+import Contact from "./components/Contact";
+
 
 const App = () => {
   return (
@@ -17,6 +20,8 @@ const App = () => {
         <Collaboration />
         <Services />
         <Roadmap />
+        <OurTeam />
+        <Contact />
         <Footer />
       </div>
 
