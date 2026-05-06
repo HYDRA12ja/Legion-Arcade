@@ -44,7 +44,7 @@ import python from "./collaboration/python.png";
 import tool from "./collaboration/tool.png";
 import video from "./collaboration/video.png";
 import facebook2 from "./collaboration/facebook.svg";
-import instagram2 from "./collaboration/instagram.png";
+import instagram2 from "./collaboration/instagram2.png";
 import twitter2 from "./collaboration/x.png";
 
 
@@ -87,6 +87,10 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+
+import webvideo from "./1.mp4";
+import webvideo2 from "./3.mp4";
+import webvideo3 from "./2.mp4";
 
 export {
   brainwave,
@@ -167,5 +171,8 @@ export {
   video,
   facebook2,
   instagram2,
-  twitter2
+  twitter2,
+  webvideo,
+  webvideo2,
+  webvideo3,
 };
