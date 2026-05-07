@@ -91,6 +91,7 @@ import twitter from "./socials/twitter.svg";
 import webvideo from "./1.mp4";
 import webvideo2 from "./3.mp4";
 import webvideo3 from "./2.mp4";
+import contact from "./contact.mp4";
 
 export {
   brainwave,
@@ -175,4 +176,5 @@ export {
   webvideo,
   webvideo2,
   webvideo3,
+  contact,
 };

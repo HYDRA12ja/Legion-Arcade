@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import webvideo from "../assets/1.mp4";
+import contact from "../assets/contact.mp4";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -212,7 +212,7 @@ const Contact = () => {
                 controls={false}
                 poster=""
               >
-                <source src={webvideo} type="video/mp4" />
+                <source src={contact} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
          
