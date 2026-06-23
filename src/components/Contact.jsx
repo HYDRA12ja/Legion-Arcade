@@ -22,23 +22,28 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const serviceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      alert("EmailJS is not configured. Add the service, template, and public key env values.");
+      return;
+    }
+
     setLoading(true);
 
     emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          from_email: form.email,
-          subject: form.subject,
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
+      .send(serviceId, templateId, {
+        from_name: form.name,
+        from_email: form.email,
+        reply_to: form.email,
+        subject: form.subject,
+        message: form.message,
+      }, {
+        publicKey,
+      })
       .then(() => {
-        setLoading(false);
-
         alert("Message sent successfully!");
 
         setForm({
@@ -49,10 +54,12 @@ const Contact = () => {
         });
       })
       .catch((error) => {
-        setLoading(false);
         console.log(error);
 
-        alert("Something went wrong.");
+        alert("Something went wrong while sending the message.");
+      })
+      .finally(() => {
+        setLoading(false);
       });
   };
 
@@ -174,6 +181,7 @@ const Contact = () => {
 
             <button
               type="submit"
+              disabled={loading}
               style={{
                 width: "140px",
                 padding: "14px",
@@ -181,9 +189,10 @@ const Contact = () => {
                 color: "white",
                 border: "none",
                 borderRadius: "12px",
-                cursor: "pointer",
+                cursor: loading ? "not-allowed" : "pointer",
                 fontWeight: "bold",
                 fontSize: "16px",
+                opacity: loading ? 0.7 : 1,
               }}
             >
               {loading ? "Sending..." : "Send"}

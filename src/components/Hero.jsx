@@ -59,17 +59,16 @@ const Hero = () => {
                 />
 
                 
-                <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="absolute z-50 -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl flex" style={{ pointerEvents: 'auto' }}>
-                    {heroIcons.map((item, index) => (
-                      <li className="p-5" key={index}>
-                        <a href={item.url} target="_blank" rel="noopener noreferrer">
-                          <img src={item.icon} width={24} height={25} alt="icon" />
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </ScrollParallax>
+                {/* Fixed left-side social icons outside the image (vertical stack) */}
+                <ul className="fixed left-4 top-1/2 transform -translate-y-1/2 z-50 px-2 py-2 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl flex flex-col space-y-3 items-center" style={{ pointerEvents: 'auto' }}>
+                  {heroIcons.map((item, index) => (
+                    <li className="p-3" key={index}>
+                      <a href={item.url} target="_blank" rel="noopener noreferrer">
+                        <img src={item.icon} width={24} height={25} alt="icon" />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
